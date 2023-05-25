@@ -1,0 +1,181 @@
+body{
+    
+}
+
+#wallpaper{
+    background-color: aqua;
+    min-width: 1400px;
+    min-height: 100vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-image: url("./img/wp1.gif");
+    background-size: cover;
+}
+
+#welcome-text{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+#section1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width:1400px;
+    color: white;
+    background-color: black;;
+}
+
+#welcome-bar2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#character-resume{
+    background-color: black;
+    height: 200px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+}
+
+#character-resume{
+    width: 1200px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    justify-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.CR{
+    height: 100%;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   flex-direction: column;
+}
+
+.CR p{
+    margin:2px;
+}
+
+#character-outfit img{
+    width: 250px;
+}
+
+#porcent-bar-bestiary p{
+    margin-left:40%;
+}
+
+#porcent-bar-charm p{
+    margin-left:40%;
+}
+
+#porcent-bar-bestiary2{
+    height: 20px;
+    width: 300px;
+    background-color: #282828;
+}
+
+#porcent-bar-bestiary2 div {
+    height: 100%;
+    width: 150px;
+    background-color: rgb(155,81,224);
+    display: flex;
+    justify-items: center;
+    justify-content: end;
+}
+
+#porcent-bar-charm2{
+    height: 20px;
+    width: 300px;
+    background-color: #282828;
+}
+
+#porcent-bar-charm2 div {
+    height: 100%;
+    width: 90px;
+    background-color: rgb(155,81,224);
+    display: flex;
+    justify-items: center;
+    color: white;
+    justify-content: end;
+}
+
+#search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 1000px;
+
+}
+
+.SB {
+    margin:0px;
+}
+
+.SB h4 {
+    margin-bottom:1px;
+}
+
+#geral-content {
+    min-width: 900px;
+}
+
+.vertical-content {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 1400px;
+}
+
+.horizontal-content {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+
+}
+
+.box-item {
+    margin-left: 5%;
+    margin-right: 5%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+}
+
+.creature-kill-status{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.creature-kill-status dl{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    min-width: 120px;
+}
+
+.creature-kill-status dl dd{
+    margin:0px
+}
+
+.creature-kill-status dl dt{
+    margin:0px
+}
