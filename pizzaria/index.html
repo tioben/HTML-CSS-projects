@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Hello Pizza, a melhor quando o assunto é sabor!">
+        <meta name="viewport"    content="width=device-width, initial-scale=1">
+        <title>Hello Pizza</title>
+    </head>
+
+
+    <body>
+        <header id="home">
+            <h1>Hello Pizza</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="sobre.html" target="_self">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section>
+            <ul>
+                <li>Qualidade</li>
+                <li>Sabor</li>
+                <li>Praticidade</li>
+                <li>Agilidade</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Sabores</h2>
+            <p>Conheça nossos <strong>5 sabores</strong> de pizza!</p>
+            <img src="image/sabores-pizzas.png" alt="Fotos de Pizzas de vários sabores" title="Piçolas"/>
+            <table border="1">
+                <caption>Tabela de Pizzas</caption>
+                <thead>
+                    <tr>
+                        <th>Sabor</th>
+                        <th>Molho e queijo</th>
+                        <th>Salada</th>
+                        <th>Carne</th>
+                        <th>Azeito/Champignom</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Muzzarella</td>
+                        <td rowspan="6">Sim</td>
+                        <td>Não</td>
+                        <td>Não</td>
+                        <td>Não</td>
+                    </tr>
+
+                    <tr>
+                        <td>Calabresa</td>
+                        <td>Não</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                    </tr>
+
+                    <tr>
+                        <td>Pepperoni</td>
+                        <td>Não</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                    </tr>
+
+                    <tr>
+                        <td>Marguerita</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                    </tr>
+
+                    <tr>
+                        <td>Portuguesa</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                    </tr>
+
+                    <tr>
+                        <td>Alho</td>
+                        <td>Não</td>
+                        <td>Não</td>
+                        <td>Não</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="http://arquivo.devmedia.com.br/projeto/requisicao.php" method="post">
+                <div>
+                    <label>Nome</label>
+                    <input type="text" name="nome" required/>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" name="email" required/>
+                <div>
+                    <label>Mensagem</label>
+                    <textarea name="mensagem"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar mensagem"/>
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <p>Hello Pizza</p>
+        </footer>
+    </body>
+</html>
